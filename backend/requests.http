@@ -1,0 +1,13 @@
+### Listar consultas
+GET http://localhost:3000/api/consultas
+
+### Agendar consulta
+POST http://localhost:3000/api/consultas
+Content-Type: application/json
+
+{
+  "paciente_id": 1,
+  "medico_id": 1,
+  "data": "2024-07-25T14:00:00",
+  "status": "agendado"
+}
